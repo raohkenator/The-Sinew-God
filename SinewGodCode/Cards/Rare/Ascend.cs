@@ -22,7 +22,7 @@ public class Ascend() : SinewGodCard(1,
         CardPlay play)
     {
         if (IsUpgraded)
-            await PowerCmd.Apply<StranglePower>(choiceContext, Owner.Creature, 1M, Owner.Creature, this);
+            await PowerCmd.Apply<StrengthPower>(choiceContext, Owner.Creature, 1M, Owner.Creature, this);
         await PowerCmd.Apply<RitualPower>(choiceContext, Owner.Creature, 1M, Owner.Creature, this);
     }
 

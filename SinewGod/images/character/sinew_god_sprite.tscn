@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://34ipeu2f1d33"]
+
+[ext_resource type="Texture2D" uid="uid://bektadxntlx1f" path="res://SinewGod/images/character/sinew_god_sprite.png" id="1_hn4d1"]
+
+[node name="Root" type="Node2D"]
+
+[node name="Visuals" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Visuals"]
+position = Vector2(26, -165)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_hn4d1")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -107.0
+offset_top = -394.0
+offset_right = 80.0
+offset_bottom = 40.0
+
+[node name="CenterPos" type="Marker2D" parent="."]
+position = Vector2(0, -290)
+
+[node name="IntentPos" type="Marker2D" parent="."]
+position = Vector2(158, -299)
+
+[node name="OrbPos" type="Marker2D" parent="."]
+position = Vector2(-21, -405)

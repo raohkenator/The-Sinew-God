@@ -7,7 +7,7 @@ using SinewGod.SinewGodCode.Cards;
 
 namespace SinewGod.SinewGodCode.Cards.Common;
 
-public class Clobber() : SinewGodCard(1,
+public class Clobber() : SinewGodCard(3,
     CardType.Attack, CardRarity.Common,
     TargetType.AnyEnemy)
 {
