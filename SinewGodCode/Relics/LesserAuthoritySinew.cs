@@ -19,7 +19,6 @@ public class LesserAuthoritySinew() : SinewGodRelic
     {
         if (room is not CombatRoom)
             return;
-        Flash();
         await PowerCmd.Apply<StrengthPower>(new ThrowingPlayerChoiceContext(), Owner.Creature,
             DynamicVars["StrengthPower"].BaseValue, Owner.Creature, null);
     }
