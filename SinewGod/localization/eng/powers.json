@@ -5,5 +5,11 @@
   "SINEWGOD-HORROR_FORM_POWER.description": "At the start of your turn, choose {Amount} {Amount:plural:card|cards} in your [gold]Discard Pile[/gold] and play it.",
   "SINEWGOD-HORROR_FORM_POWER.smartDescription": "At the start of your turn, choose a card in your [gold]Discard Pile[/gold] and play it.",
   "SINEWGOD-HORROR_FORM_POWER.selectionScreenPrompt": "Select {Amount} {Amount:plural:card|cards} to play.",
-  "SINEWGOD-HORROR_FORM_POWER.title": "Horror Form"
+  "SINEWGOD-HORROR_FORM_POWER.title": "Horror Form",
+  "SINEWGOD-REPURPOSE_POWER.description": "Whenever you lose HP on your turn, [blue]1[/blue] {Amount} [gold]Strength[/gold].",
+  "SINEWGOD-REPURPOSE_POWER.smartDescription": "Whenever you lose HP on your turn, gain {Amount} [gold]Strength[/gold].",
+  "SINEWGOD-REPURPOSE_POWER.title": "Repurpose",
+  "SINEWGOD-SCAB_OVER_POWER.description": "Whenever you lose HP, gain [blue]1[/blue] [gold]Block[/gold] next turn.",
+  "SINEWGOD-SCAB_OVER_POWER.smartDescription": "Whenever you lose HP, gain {Amount} [gold]Block[/gold] next turn.",
+  "SINEWGOD-SCAB_OVER_POWER.title": "Scab Over"
 }
