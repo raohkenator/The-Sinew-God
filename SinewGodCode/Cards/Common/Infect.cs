@@ -8,7 +8,7 @@ using SinewGod.SinewGodCode.Cards;
 namespace SinewGod.SinewGodCode.Cards.Common;
 
 public class Infect() : SinewGodCard(2,
-    CardType.Skill, CardRarity.Basic,
+    CardType.Skill, CardRarity.Common,
     TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new ("Debuff", 5M)];
