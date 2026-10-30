@@ -9,7 +9,7 @@ namespace SinewGod.SinewGodCode.Cards.Common;
 
 public class TendonWhip() : SinewGodCard(1,
     CardType.Attack, CardRarity.Common,
-    TargetType.AnyEnemy)
+    TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(9M, ValueProp.Move)];
 
@@ -17,11 +17,11 @@ public class TendonWhip() : SinewGodCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        ArgumentNullException.ThrowIfNull(play.Target);
+        ArgumentNullException.ThrowIfNull(CombatState);
         await CreatureCmd.Damage(choiceContext, Owner.Creature, 1M, ValueProp.Unblockable, this, play);
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
             .FromCard(this, play)
-            .Targeting(play.Target)
+            .TargetingAllOpponents(CombatState)
             .Execute(choiceContext);
 
     }
