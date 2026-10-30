@@ -11,6 +11,7 @@ public class TendrilSymbiote() : SinewGodCard(2,
     CardType.Skill, CardRarity.Uncommon,
     TargetType.AnyAlly)
 {
+    public override CardMultiplayerConstraint MultiplayerConstraint => CardMultiplayerConstraint.MultiplayerOnly;
     protected override IEnumerable<DynamicVar> CanonicalVars => [new HealVar(10M)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
