@@ -1,6 +1,29 @@
 {
+  "SINEWGOD-BAND_OF_THE_SHIMMERING_SHIELD.description": "If you did not play any Skills during your turn, gain [blue]{Block:diff()}[/blue] [gold]Block[/gold].",
+  "SINEWGOD-BAND_OF_THE_SHIMMERING_SHIELD.flavor": "",
+  "SINEWGOD-BAND_OF_THE_SHIMMERING_SHIELD.title": "Band of the Shimmering Shield",
+  "SINEWGOD-BRANCH_OF_THE_ESOX_TREE.description": "The first time each combat you [gold]Exhaust[/gold] an Attack, add a copy of it into your [gold]Hand[/gold].",
+  "SINEWGOD-BRANCH_OF_THE_ESOX_TREE.flavor": "",
+  "SINEWGOD-BRANCH_OF_THE_ESOX_TREE.title": "Branch of the Esox Tree",
+  "SINEWGOD-CHARM_OF_CLEAN_AIR.description": "Your Skills cannot be Afflicted.",
+  "SINEWGOD-CHARM_OF_CLEAN_AIR.flavor": "",
+  "SINEWGOD-CHARM_OF_CLEAN_AIR.title": "Charm of Clean Air",
+  "SINEWGOD-EYE_OF_NEWT_JAR.description": "Whenever you lose HP, gain [blue]{RegenPower:diff()}[/blue] [gold]Regen[/gold].",
+  "SINEWGOD-EYE_OF_NEWT_JAR.flavor": "",
+  "SINEWGOD-EYE_OF_NEWT_JAR.title": "Eye of Newt Jar",
+  "SINEWGOD-GREATER_AUTHORITY_SINEW.description": "Start each combat with [blue]1[/blue] [gold]Strength[/gold].\nWhenever you lose HP in combat, gain [blue]1[/blue] [gold]Strength[/gold].\nGain {energyPrefix:energyIcons(1)} at the start of each turn.",
+  "SINEWGOD-GREATER_AUTHORITY_SINEW.flavor": "",
+  "SINEWGOD-GREATER_AUTHORITY_SINEW.title": "Greater Authority: Sinew",
+  "SINEWGOD-HOLY_GREATSWORD.description": "Start each combat with [blue]{StrengthPower:diff()}[/blue] [gold]Strength[/gold].",
+  "SINEWGOD-HOLY_GREATSWORD.flavor": "",
+  "SINEWGOD-HOLY_GREATSWORD.title": "Holy Greatsword",
   "SINEWGOD-LESSER_AUTHORITY_SINEW.description": "Start each combat with [blue]{StrengthPower:diff()}[/blue] [gold]Strength[/gold].",
   "SINEWGOD-LESSER_AUTHORITY_SINEW.flavor": "",
-  "SINEWGOD-LESSER_AUTHORITY_SINEW.title": "Lesser Authority: Sinew"
-
+  "SINEWGOD-LESSER_AUTHORITY_SINEW.title": "Lesser Authority: Sinew",
+  "SINEWGOD-ORGRES_ENDURANCE_BELT.description": "Whenever you play a card that costs {Energy:energyIcons()} or more, gain {Block:diff()} [gold]Block[/gold].",
+  "SINEWGOD-ORGRES_ENDURANCE_BELT.flavor": "",
+  "SINEWGOD-ORGRES_ENDURANCE_BELT.title": "Orgre's Endurance Belt",
+  "SINEWGOD-PITCHFORK.description": "A random card in each card reward is Enchanted with [gold]Sown[/gold].",
+  "SINEWGOD-PITCHFORK.flavor": "",
+  "SINEWGOD-PITCHFORK.title": "Pitchfork"
 }

@@ -1,0 +1,8 @@
+{
+  "SINEWGOD-CRIMSON_VAPOR.description": "Apply [blue]1[/blue] [gold]Vulnerable[/gold] and [gold]Weak[/gold] to ALL enemies.\nALL enemies lose [blue]5[/blue] [gold]Strength[/gold] this turn.",
+  "SINEWGOD-CRIMSON_VAPOR.title": "Crimson Vapor",
+  "SINEWGOD-ICHOR.description": "Gain [blue]2[/blue] [gold]Regen[/gold].\nGain [blue]1[/blue] Max HP.",
+  "SINEWGOD-ICHOR.title": "Ichor",
+  "SINEWGOD-PROTEIN_SHAKE.description": "Gain [blue]1[/blue] [gold]Strength[/gold].\nGain {energyPrefix:energyIcons(1)}.",
+  "SINEWGOD-PROTEIN_SHAKE.title": "Protein Shake"
+}

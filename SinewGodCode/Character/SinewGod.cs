@@ -63,5 +63,5 @@ public class SinewGod : PlaceholderCharacterModel
     public override string CustomCharacterSelectLockedIconPath => "char_select_char_name_locked.png".CharacterUiPath();
     public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
     public override string CustomVisualPath => "res://SinewGod/images/character/sinew_god_sprite.tscn";
-
+    public override string CustomCharacterSelectBg => "res://SinewGod/images/character/selection_screen.tscn";
 }
