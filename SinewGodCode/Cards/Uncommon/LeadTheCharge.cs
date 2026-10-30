@@ -25,7 +25,7 @@ public class LeadTheCharge() : SinewGodCard(1,
             .FromCard(this, play)
             .Targeting(play.Target)
             .Execute(choiceContext);
-        IEnumerable<Creature> allies = CombatState!.Allies;
+        IReadOnlyList<Creature>? allies = CombatState!.Allies.Where(p => p != Owner.Creature).ToList();
         foreach (Creature ally in allies)
             await PowerCmd.Apply<FreeAttackPower>(choiceContext, ally, 1M, Owner.Creature, this);
     }
