@@ -62,7 +62,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="SinewGodCode\Singletons\" />
         <Folder Include="SinewGod\images\card_portraits\big\"/>
         <Folder Include="SinewGod\images\powers\big\"/>
         <Folder Include="SinewGod\images\relics\big\"/>
