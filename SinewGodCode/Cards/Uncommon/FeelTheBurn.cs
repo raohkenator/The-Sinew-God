@@ -8,7 +8,7 @@ using SinewGod.SinewGodCode.Cards;
 
 namespace SinewGod.SinewGodCode.Cards.Uncommon;
 
-public class FeelTheBurn() : SinewGodCard(0,
+public class FeelTheBurn() : SinewGodCard(1,
     CardType.Skill, CardRarity.Uncommon,
     TargetType.Self)
 {
@@ -25,6 +25,6 @@ public class FeelTheBurn() : SinewGodCard(0,
 
     protected override void OnUpgrade()
     {
-        EnergyCost.UpgradeBy(1);
+        EnergyCost.UpgradeBy(-1);
     }
 }
