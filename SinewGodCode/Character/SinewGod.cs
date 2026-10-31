@@ -15,11 +15,12 @@ public class SinewGod : PlaceholderCharacterModel
 {
     public const string CharacterId = "SinewGod";
 
-    public static readonly Color Color = new("7c3423");
+    public static readonly Color Color = new("610811");
 
     public override Color NameColor => Color;
-    public override CharacterGender Gender => CharacterGender.Neutral;
+    public override CharacterGender Gender => CharacterGender.Masculine;
     public override int StartingHp => 80;
+    public override Color MapDrawingColor => Color;
 
     public override IEnumerable<CardModel> StartingDeck =>
     [
@@ -27,7 +28,7 @@ public class SinewGod : PlaceholderCharacterModel
         ModelDb.Card<StrikeSinewGod>(),
         ModelDb.Card<StrikeSinewGod>(),
         ModelDb.Card<StrikeSinewGod>(),
-        ModelDb.Card<StrikeSinewGod>(),
+        ModelDb.Card<DefendSinewGod>(),
         ModelDb.Card<DefendSinewGod>(),
         ModelDb.Card<DefendSinewGod>(),
         ModelDb.Card<DefendSinewGod>(),
@@ -59,7 +60,7 @@ public class SinewGod : PlaceholderCharacterModel
     }
 
     public override string CustomIconTexturePath => "character_icon_char_name.png".CharacterUiPath();
-    public override string CustomCharacterSelectIconPath => "char_select_char_name.png".CharacterUiPath();
+    public override string CustomCharacterSelectIconPath => "char_select_this_man_is_hot.png".CharacterUiPath();
     public override string CustomCharacterSelectLockedIconPath => "char_select_char_name_locked.png".CharacterUiPath();
     public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
     public override string CustomVisualPath => "res://SinewGod/images/character/sinew_god_sprite.tscn";
