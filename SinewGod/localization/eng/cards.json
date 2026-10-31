@@ -131,7 +131,7 @@
   "SINEWGOD-SHAPESHIFT.title": "Shapeshift",
   "SINEWGOD-SHIFT_TO_DEFENSE.description": "Deal {Damage:diff()} damage.\nThe next {Skill:diff()} {Skill:plural:Skill|Skills} you play {Skill:plural:is|are} free.",
   "SINEWGOD-SHIFT_TO_DEFENSE.title": "Shift to Defense",
-  "SINEWGOD-SHIFT_TO_OFFENSE.description": "Gain {Block:diff()} [gold]Block[/gold].\nhe next {Attack:diff()} {Attack:plural:Attack|Attacks} you play {Attack:plural:is|are} free.",
+  "SINEWGOD-SHIFT_TO_OFFENSE.description": "Gain {Block:diff()} [gold]Block[/gold].\nThe next {Attack:diff()} {Attack:plural:Attack|Attacks} you play {Attack:plural:is|are} free.",
   "SINEWGOD-SHIFT_TO_OFFENSE.title": "Shift to Offense",
   "SINEWGOD-SHIFTING_SHELL.description": "When you lose HP, gain 1 [gold]Buffer[/gold].",
   "SINEWGOD-SHIFTING_SHELL.title": "Shifting Shell",
