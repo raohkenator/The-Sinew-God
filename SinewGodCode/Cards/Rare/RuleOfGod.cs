@@ -11,7 +11,7 @@ public class RuleOfGod() : SinewGodCard(9,
     CardType.Attack, CardRarity.Rare,
     TargetType.AllEnemies)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(75M, ValueProp.Move)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(40M, ValueProp.Move)];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
@@ -27,6 +27,6 @@ public class RuleOfGod() : SinewGodCard(9,
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Damage.UpgradeValueBy(15M);
+        DynamicVars.Damage.UpgradeValueBy(10M);
     }
 }
