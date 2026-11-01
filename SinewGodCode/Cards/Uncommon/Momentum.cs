@@ -28,6 +28,7 @@ public class Momentum() : SinewGodCard(2,
             .FromCard(this, play)
             .Targeting(play.Target)
             .Execute(choiceContext);
+        await PlayerCmd.GainEnergy(DynamicVars.Energy.BaseValue, Owner);
     }
 
     public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
