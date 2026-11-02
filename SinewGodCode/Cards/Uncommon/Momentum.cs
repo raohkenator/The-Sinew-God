@@ -4,6 +4,7 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using SinewGod.SinewGodCode.Cards;
 
@@ -28,7 +29,7 @@ public class Momentum() : SinewGodCard(2,
             .FromCard(this, play)
             .Targeting(play.Target)
             .Execute(choiceContext);
-        await PlayerCmd.GainEnergy(DynamicVars.Energy.BaseValue, Owner);
+        await PowerCmd.Apply<EnergyNextTurnPower>(choiceContext, Owner.Creature, DynamicVars.Energy.BaseValue, Owner.Creature, this);
     }
 
     public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
