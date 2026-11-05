@@ -21,9 +21,9 @@
   "SINEWGOD-LESSER_AUTHORITY_SINEW.description": "Start each combat with [blue]{StrengthPower:diff()}[/blue] [gold]Strength[/gold].",
   "SINEWGOD-LESSER_AUTHORITY_SINEW.flavor": "",
   "SINEWGOD-LESSER_AUTHORITY_SINEW.title": "Lesser Authority: Sinew",
-  "SINEWGOD-ORGRES_ENDURANCE_BELT.description": "Whenever you play a card that costs {Energy:energyIcons()} or more, gain {Block:diff()} [gold]Block[/gold].",
-  "SINEWGOD-ORGRES_ENDURANCE_BELT.flavor": "",
-  "SINEWGOD-ORGRES_ENDURANCE_BELT.title": "Orgre's Endurance Belt",
+  "SINEWGOD-OGRES_ENDURANCE_BELT.description": "Whenever you play a card that costs {Energy:energyIcons()} or more, gain {Block:diff()} [gold]Block[/gold].",
+  "SINEWGOD-OGRES_ENDURANCE_BELT.flavor": "",
+  "SINEWGOD-OGRES_ENDURANCE_BELT.title": "Ogre's Endurance Belt",
   "SINEWGOD-PITCHFORK.description": "A random card in each card reward is Enchanted with [gold]Sown[/gold].",
   "SINEWGOD-PITCHFORK.flavor": "",
   "SINEWGOD-PITCHFORK.title": "Pitchfork"

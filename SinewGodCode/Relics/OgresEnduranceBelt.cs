@@ -7,7 +7,7 @@ using SinewGod.SinewGodCode.Relics;
 
 namespace SinewGod.SinewGodCode.Relics;
 
-public class OrgresEnduranceBelt() : SinewGodRelic
+public class OgresEnduranceBelt() : SinewGodRelic
 {
     public override RelicRarity Rarity => RelicRarity.Rare;
 
