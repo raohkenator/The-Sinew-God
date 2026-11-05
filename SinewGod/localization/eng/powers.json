@@ -1,4 +1,7 @@
 {
+  "SINEWGOD-ASSIMILATE_POWER.description": "Whenever you play a card that costs [blue]3[/blue] Energy or more, apply [blue]7[/blue] [gold]Poison[/gold] to ALL enemies.",
+  "SINEWGOD-ASSIMILATE_POWER.smartDescription": "Whenever you play a card that costs {Energy:energyIcons()} or more, apply [blue]{Amount}[/blue] [gold]Poison[/gold] to ALL enemies.",
+  "SINEWGOD-ASSIMILATE_POWER.title": "Assimilate",
   "SINEWGOD-CLEAR_AIR_POWER.description": "Your Skills cannot be Afflicted.",
   "SINEWGOD-CLEAR_AIR_POWER.smartDescription": "Your Skills cannot be Afflicted.",
   "SINEWGOD-CLEAR_AIR_POWER.title": "Clear Air",

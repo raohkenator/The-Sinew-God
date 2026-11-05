@@ -11,6 +11,8 @@
   "SINEWGOD-ASCEND.title": "Ascend",
   "SINEWGOD-ACID_SPLASH.description": "Deal {Damage:diff()} damage.\nApply {PoisonPower:diff()} [gold]Poison[/gold].",
   "SINEWGOD-ACID_SPLASH.title": "Acid Splash",
+  "SINEWGOD-ASSIMILATE.description": "Whenever you play a card that costs {Energy:energyIcons()} or more, apply [blue]{AssimilatePower:diff()}[/blue] [gold]Poison[/gold] to ALL enemies.",
+  "SINEWGOD-ASSIMILATE.title": "Assimilate",
   "SINEWGOD-ACTION_SURGE.description": "Double your Energy.",
   "SINEWGOD-ACTION_SURGE.title": "Action Surge",
   "SINEWGOD-ADRENAL_SURGE.description": "Lose {HpLoss:diff()} HP.\nDraw {Cards:diff()} cards.",
