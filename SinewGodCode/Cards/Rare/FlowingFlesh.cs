@@ -19,7 +19,6 @@ public class FlowingFlesh() : SinewGodCard(1,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        ArgumentNullException.ThrowIfNull(play.Target);
         await PowerCmd.Apply<SlipperyPower>(choiceContext, Owner.Creature, DynamicVars["SlipperyPower"].BaseValue, Owner.Creature, this);
     }
 
