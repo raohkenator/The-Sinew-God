@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1044w133wgx2"
-path="res://.godot/imported/evolve.png-08d0d2e4384dad495dc775ee143fa559.ctex"
+path="res://.godot/imported/evolution.png-4c611144a652e953b07ddab44ebe38e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SinewGod/images/card_portraits/big/evolve.png"
-dest_files=["res://.godot/imported/evolve.png-08d0d2e4384dad495dc775ee143fa559.ctex"]
+source_file="res://SinewGod/images/card_portraits/big/evolution.png"
+dest_files=["res://.godot/imported/evolution.png-4c611144a652e953b07ddab44ebe38e3.ctex"]
 
 [params]
 
