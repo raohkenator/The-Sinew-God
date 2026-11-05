@@ -1,4 +1,5 @@
 ﻿using BaseLib.Abstracts;
+using BaseLib.Patches.UI;
 using BaseLib.Utils.NodeFactories;
 using SinewGod.SinewGodCode.Extensions;
 using Godot;
@@ -65,4 +66,14 @@ public class SinewGod : PlaceholderCharacterModel
     public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
     public override string CustomVisualPath => "res://SinewGod/images/character/sinew_god_sprite.tscn";
     public override string CustomCharacterSelectBg => "res://SinewGod/images/character/selection_screen.tscn";
+    public override string CustomArmPointingTexturePath => "res://SinewGod/images/character/sinew_god_point.png";
+    public override string CustomArmRockTexturePath => "res://SinewGod/images/character/sinew_god_rock.png";
+    public override string CustomArmPaperTexturePath => "res://SinewGod/images/character/sinew_god_paper.png";
+    public override string CustomArmScissorsTexturePath => "res://SinewGod/images/character/sinew_god_scissor.png";
+    public override string CustomRestSiteAnimPath => "res://SinewGod/images/character/sinew_god_rest_site.tscn";
+    public override RelicIconData? CustomYummyCookie => new(
+        "res://SinewGod/images/relics/big/yummy_cookie_sinew_god.png", 
+        "res://SinewGod/images/relics/yummy_cookie_sinew_god.png", 
+        "res://SinewGod/images/relics/yummy_cookie_sinew_god_outline.png"
+        );
 }
