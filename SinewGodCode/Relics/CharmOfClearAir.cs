@@ -7,7 +7,7 @@ using SinewGod.SinewGodCode.Relics;
 
 namespace SinewGod.SinewGodCode.Relics;
 
-public class CharmOfCleanAir() : SinewGodRelic
+public class CharmOfClearAir() : SinewGodRelic
 {
     public override RelicRarity Rarity => RelicRarity.Common;
 
@@ -15,6 +15,6 @@ public class CharmOfCleanAir() : SinewGodRelic
     {
         if (room is not CombatRoom)
             return;
-        await PowerCmd.Apply<CleanAirPower>(new ThrowingPlayerChoiceContext(), Owner.Creature, 1, Owner.Creature, null);
+        await PowerCmd.Apply<ClearAirPower>(new ThrowingPlayerChoiceContext(), Owner.Creature, 1, Owner.Creature, null);
     }
 }

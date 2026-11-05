@@ -7,7 +7,7 @@ using SinewGod.SinewGodCode.Powers;
 
 namespace SinewGod.SinewGodCode.Powers;
 
-public class CleanAirPower() : SinewGodPower
+public class ClearAirPower() : SinewGodPower
 {
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;

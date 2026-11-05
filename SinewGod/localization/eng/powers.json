@@ -1,7 +1,7 @@
 {
-  "SINEWGOD-CLEAN_AIR_POWER.description": "Your Skills cannot be Afflicted.",
-  "SINEWGOD-CLEAN_AIR_POWER.smartDescription": "Your Skills cannot be Afflicted.",
-  "SINEWGOD-CLEAN_AIR_POWER.title": "Clean Air",
+  "SINEWGOD-CLEAR_AIR_POWER.description": "Your Skills cannot be Afflicted.",
+  "SINEWGOD-CLEAR_AIR_POWER.smartDescription": "Your Skills cannot be Afflicted.",
+  "SINEWGOD-CLEAR_AIR_POWER.title": "Clear Air",
   "SINEWGOD-ENLARGE_POWER.description": "At the start of your turn, gain [gold]Gigantification[/gold].",
   "SINEWGOD-ENLARGE_POWER.smartDescription": "At the start of your turn, gain [blue]{Amount}[/blue] [gold]Gigantification[/gold].",
   "SINEWGOD-ENLARGE_POWER.title": "Enlarge",
