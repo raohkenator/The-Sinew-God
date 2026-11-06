@@ -41,7 +41,7 @@
   "SINEWGOD-CRUSH.title": "Crush",
   "SINEWGOD-DEFEND_SINEW_GOD.description": "Gain {Block:diff()} [gold]Block[/gold].",
   "SINEWGOD-DEFEND_SINEW_GOD.title": "Defend",
-  "SINEWGOD-DESTRUCTIVE_WAVE.description": "Deal {Damage:diff()} damage, apply {Debuff:diff()} [gold]Vulnerable[/gold] and [gold]Weak[/gold] to ALL enemies.",
+  "SINEWGOD-DESTRUCTIVE_WAVE.description": "Deal {Damage:diff()} damage and apply {Debuff:diff()} [gold]Vulnerable[/gold] and [gold]Weak[/gold] to ALL enemies.",
   "SINEWGOD-DESTRUCTIVE_WAVE.title": "Destructive Wave",
   "SINEWGOD-DISSOLVE.description": "Deal {Damage:diff()} damage.\nApply [gold]Poison[/gold] equal to damage dealt.",
   "SINEWGOD-DISSOLVE.title": "Dissolve",

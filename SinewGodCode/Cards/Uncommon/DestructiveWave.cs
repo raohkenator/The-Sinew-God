@@ -1,5 +1,6 @@
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Powers;
@@ -10,7 +11,7 @@ namespace SinewGod.SinewGodCode.Cards.Uncommon;
 
 public class DestructiveWave() : SinewGodCard(3,
     CardType.Attack, CardRarity.Uncommon,
-    TargetType.AnyEnemy)
+    TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(16M, ValueProp.Move),
@@ -21,13 +22,14 @@ public class DestructiveWave() : SinewGodCard(3,
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        ArgumentNullException.ThrowIfNull(play.Target);
+        ArgumentNullException.ThrowIfNull(CombatState);
+        List<Creature> enemies =  CombatState.Enemies.Where(e => e.IsAlive).ToList();
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
             .FromCard(this, play)
-            .Targeting(play.Target)
+            .TargetingAllOpponents(CombatState)
             .Execute(choiceContext);
-        await PowerCmd.Apply<VulnerablePower>(choiceContext, CombatState?.Enemies, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<WeakPower>(choiceContext, CombatState?.Enemies, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<VulnerablePower>(choiceContext, enemies, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<WeakPower>(choiceContext, enemies, DynamicVars["Debuff"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
