@@ -9,11 +9,11 @@ using SinewGod.SinewGodCode.Powers;
 
 namespace SinewGod.SinewGodCode.Cards.Rare;
 
-public class Split() : SinewGodCard(3,
+public class Split() : SinewGodCard(4,
     CardType.Power, CardRarity.Rare,
     TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new HpLossVar(8M)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new HpLossVar(10M)];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.Static(StaticHoverTip.ReplayStatic)];
 
     protected override async Task OnPlay(
@@ -26,6 +26,6 @@ public class Split() : SinewGodCard(3,
 
     protected override void OnUpgrade()
     {
-        DynamicVars.HpLoss.UpgradeValueBy(-4M);
+        EnergyCost.UpgradeBy(-1);
     }
 }
