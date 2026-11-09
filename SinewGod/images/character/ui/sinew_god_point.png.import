@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://birgwn5aucutw"
-path="res://.godot/imported/sinew_god_scissor.png-7286bafc73c9e8d4119f3a59a622dfbc.ctex"
+uid="uid://6djd84iup0wl"
+path="res://.godot/imported/sinew_god_point.png-cd52d3420fc86efe2a7e60134019caa2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SinewGod/images/character/sinew_god_scissor.png"
-dest_files=["res://.godot/imported/sinew_god_scissor.png-7286bafc73c9e8d4119f3a59a622dfbc.ctex"]
+source_file="res://SinewGod/images/character/ui/sinew_god_point.png"
+dest_files=["res://.godot/imported/sinew_god_point.png-cd52d3420fc86efe2a7e60134019caa2.ctex"]
 
 [params]
 

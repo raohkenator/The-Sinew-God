@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqa1are55jnk6"
-path="res://.godot/imported/sinew_god_paper.png-0acb52de8f531a377044722e996a9164.ctex"
+uid="uid://udo4s08f241t"
+path="res://.godot/imported/sinew_god_rock.png-1710f4f405bdc523ea30c098bc0f2652.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SinewGod/images/character/sinew_god_paper.png"
-dest_files=["res://.godot/imported/sinew_god_paper.png-0acb52de8f531a377044722e996a9164.ctex"]
+source_file="res://SinewGod/images/character/ui/sinew_god_rock.png"
+dest_files=["res://.godot/imported/sinew_god_rock.png-1710f4f405bdc523ea30c098bc0f2652.ctex"]
 
 [params]
 
