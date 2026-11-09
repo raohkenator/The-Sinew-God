@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://d25i4icuwt1lu"]
+
+[ext_resource type="Texture2D" uid="uid://bektadxntlx1f" path="res://SinewGod/images/character/sinew_god_sprite.png" id="1_2scko"]
+
+[node name="Root" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(26, -265)
+texture = ExtResource("1_2scko")
