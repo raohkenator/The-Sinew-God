@@ -1,9 +1,9 @@
 ﻿{
   "id": "SinewGod",
   "name": "The Sinew God",
-  "author": "FuzzBallRaoh, TitanDon, Mr. Bugatti",
+  "author": "FuzzBallRaoh, TitanDon, Mr. Bugatti, YuriDaFurry",
   "description": "",
-  "version": "v1.1.1",
+  "version": "v1.1.3",
   "min_game_version": "0.107.0",
   "has_pck": true,
   "has_dll": true,

@@ -64,16 +64,21 @@ public class SinewGod : PlaceholderCharacterModel
     public override string CustomCharacterSelectIconPath => "char_select_this_man_is_hot.png".CharacterUiPath();
     public override string CustomCharacterSelectLockedIconPath => "char_select_char_name_locked.png".CharacterUiPath();
     public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
-    public override string CustomVisualPath => "res://SinewGod/images/character/sinew_god_sprite.tscn";
-    public override string CustomCharacterSelectBg => "res://SinewGod/images/character/selection_screen.tscn";
-    public override string CustomArmPointingTexturePath => "res://SinewGod/images/character/sinew_god_point.png";
-    public override string CustomArmRockTexturePath => "res://SinewGod/images/character/sinew_god_rock.png";
-    public override string CustomArmPaperTexturePath => "res://SinewGod/images/character/sinew_god_paper.png";
-    public override string CustomArmScissorsTexturePath => "res://SinewGod/images/character/sinew_god_scissor.png";
-    public override string CustomRestSiteAnimPath => "res://SinewGod/images/character/sinew_god_rest_site.tscn";
+    
+    // chest screen
+    public override string CustomArmPointingTexturePath => "res://SinewGod/images/character/ui/sinew_god_point.png";
+    public override string CustomArmRockTexturePath => "res://SinewGod/images/character/ui/sinew_god_rock.png";
+    public override string CustomArmPaperTexturePath => "res://SinewGod/images/character/ui/sinew_god_paper.png";
+    public override string CustomArmScissorsTexturePath => "res://SinewGod/images/character/ui/sinew_god_scissor.png";
     public override RelicIconData? CustomYummyCookie => new(
         "res://SinewGod/images/relics/big/yummy_cookie_sinew_god.png", 
         "res://SinewGod/images/relics/yummy_cookie_sinew_god.png", 
         "res://SinewGod/images/relics/yummy_cookie_sinew_god_outline.png"
         );
+    
+    // scenes
+    public override string CustomVisualPath => "res://SinewGod/images/scene/sinew_god_sprite.tscn";
+    public override string CustomMerchantAnimPath => "res://SinewGod/images/scene/merchant/sinew_god_sprite_merchant.tscn";
+    public override string CustomCharacterSelectBg => "res://SinewGod/images/scene/charselect/selection_screen.tscn";
+    public override string CustomRestSiteAnimPath => "res://SinewGod/images/scene/restsite/sinew_god_rest_site.tscn";
 }
