@@ -121,7 +121,7 @@
   "SINEWGOD-REND_FLESH.title": "Rend Flesh",
   "SINEWGOD-REPURPOSE.description": "Whenever you lose HP on your turn, gain {RupturePower:diff()} [gold]Strength[/gold].",
   "SINEWGOD-REPURPOSE.title": "Repurpose",
-  "SINEWGOD-RULE_OF_GOD.description": "Deal {Damage:diff()} damage to ALL enemies 5 times.",
+  "SINEWGOD-RULE_OF_GOD.description": "Deal {Damage:diff()} damage to ALL enemies.\nIf you did not play this Card for free, it hits 9 times.",
   "SINEWGOD-RULE_OF_GOD.title": "Rule of God",
   "SINEWGOD-SCAB_OVER.description": "Whenever you lose HP, gain {ScabOverPower:diff()} [gold]Block[/gold] next turn.",
   "SINEWGOD-SCAB_OVER.title": "Scab Over",
