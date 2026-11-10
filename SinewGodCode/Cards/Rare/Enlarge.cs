@@ -9,7 +9,7 @@ using SinewGod.SinewGodCode.Powers;
 
 namespace SinewGod.SinewGodCode.Cards.Rare;
 
-public class Enlarge() : SinewGodCard(3,
+public class Enlarge() : SinewGodCard(4,
     CardType.Power, CardRarity.Rare,
     TargetType.Self)
 {
