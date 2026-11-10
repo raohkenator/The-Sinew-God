@@ -44,6 +44,6 @@ public class Momentum() : SinewGodCard(2,
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Energy.UpgradeValueBy(2M);
+        DynamicVars.Energy.UpgradeValueBy(1M);
     }
 }

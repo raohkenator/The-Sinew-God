@@ -13,9 +13,11 @@ public class Exercise() : SinewGodCard(3,
     TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new PowerVar<StrengthPower>(2M),
-        new PowerVar<RegenPower>(3M)
+        new PowerVar<StrengthPower>(3M),
+        new PowerVar<RegenPower>(2M)
     ];
+
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
         HoverTipFactory.FromPower<StrengthPower>(),
@@ -32,7 +34,7 @@ public class Exercise() : SinewGodCard(3,
 
     protected override void OnUpgrade()
     {
-        DynamicVars["StrengthPower"].UpgradeValueBy(1M);
-        DynamicVars["RegenPower"].UpgradeValueBy(2M);
+        DynamicVars["StrengthPower"].UpgradeValueBy(2M);
+        DynamicVars["RegenPower"].UpgradeValueBy(1M);
     }
 }
