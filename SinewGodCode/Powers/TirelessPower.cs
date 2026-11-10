@@ -16,7 +16,7 @@ public class TirelessPower() : SinewGodPower
 
     public override async Task BeforeCardPlayed(CardPlay cardPlay)
     {
-        if (cardPlay.Player != Owner.Player || cardPlay.Resources.EnergySpent < 3)
+        if (cardPlay.Player != Owner.Player || cardPlay.Card.EnergyCost.GetResolved() < 3)
             return;
         await PlayerCmd.GainEnergy(Amount, Owner.Player);
     }

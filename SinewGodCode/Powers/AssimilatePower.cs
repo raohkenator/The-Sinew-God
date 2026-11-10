@@ -25,7 +25,7 @@ public class AssimilatePower() : SinewGodPower
     public override async Task BeforeCardPlayed(CardPlay cardPlay)
     {
         ArgumentNullException.ThrowIfNull(Owner.CombatState);
-        if (cardPlay.Player != Owner.Player || cardPlay.Resources.EnergySpent < 3)
+        if (cardPlay.Player != Owner.Player || cardPlay.Card.EnergyCost.GetResolved() < 3)
             return;
         await PowerCmd.Apply<PoisonPower>(new ThrowingPlayerChoiceContext(), Owner.CombatState.Enemies.Where(e => e.IsAlive), Amount, Owner, null);
     }
