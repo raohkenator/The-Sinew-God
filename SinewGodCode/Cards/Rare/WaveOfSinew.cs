@@ -28,7 +28,6 @@ public class WaveOfSinew() : SinewGodCard(0,
 
     protected override void OnUpgrade()
     {
-        AddKeyword(CardKeyword.Innate);
         DynamicVars.Damage.UpgradeValueBy(3M);
     }
 }
