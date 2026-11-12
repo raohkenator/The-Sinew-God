@@ -14,7 +14,7 @@ public class Growth() : SinewGodCard(2,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
     new DamageVar(10M, ValueProp.Move),
-    new PowerVar<RegenPower>(3M)
+    new PowerVar<RegenPower>(2M)
     ];
 
     protected override async Task OnPlay(
@@ -32,6 +32,6 @@ public class Growth() : SinewGodCard(2,
     protected override void OnUpgrade()
     {
         DynamicVars.Damage.UpgradeValueBy(4M);
-        DynamicVars["RegenPower"].UpgradeValueBy(2M);
+        DynamicVars["RegenPower"].UpgradeValueBy(1M);
     }
 }
