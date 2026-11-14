@@ -13,7 +13,7 @@ public class AdrenalSurge() : SinewGodCard(0,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new CardsVar(2),
-        new HpLossVar(1)
+        new HpLossVar(2)
     ];
 
     protected override async Task OnPlay(
