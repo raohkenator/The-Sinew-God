@@ -13,7 +13,10 @@ public class Gouge() : SinewGodCard(0,
     CardType.Attack, CardRarity.Common,
     TargetType.AnyEnemy)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(4M, ValueProp.Move)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [
+        new HpLossVar(1M),
+        new DamageVar(4M, ValueProp.Move)
+    ];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<WeakPower>(), HoverTipFactory.FromPower<VulnerablePower>()];
 
     protected override async Task OnPlay(
@@ -21,7 +24,7 @@ public class Gouge() : SinewGodCard(0,
         CardPlay play)
     {
         ArgumentNullException.ThrowIfNull(play.Target);
-        await CreatureCmd.Damage(choiceContext, Owner.Creature, 2M, ValueProp.Unblockable, this, play);
+        await CreatureCmd.Damage(choiceContext, Owner.Creature, DynamicVars.HpLoss.BaseValue, ValueProp.Unblockable, this, play);
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
             .FromCard(this, play)
             .Targeting(play.Target)

@@ -87,7 +87,7 @@
   "SINEWGOD-FRIGHTFUL_PRESENCE.title": "Frightful Presence",
   "SINEWGOD-GIANT_PUNCH.description": "Deal {Damage:diff()} damage.",
   "SINEWGOD-GIANT_PUNCH.title": "Giant Punch",
-  "SINEWGOD-GOUGE.description": "Lose 2 HP.\nDeal {Damage:diff()} damage.\nApply 1 [gold]Weak[/gold] and [gold]Vulnerable[/gold].",
+  "SINEWGOD-GOUGE.description": "Lose {HpLoss:diff()} HP.\nDeal {Damage:diff()} damage.\nApply 1 [gold]Weak[/gold] and [gold]Vulnerable[/gold].",
   "SINEWGOD-GOUGE.title": "Gouge",
   "SINEWGOD-GROWTH.description": "Deal {Damage:diff()} damage to ALL enemies.\nGain {RegenPower:diff()} [gold]Regen[/gold].",
   "SINEWGOD-GROWTH.title": "Growth",
