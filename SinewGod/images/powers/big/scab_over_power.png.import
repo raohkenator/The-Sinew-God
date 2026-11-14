@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de57r4dt87v21"
-path="res://.godot/imported/scab_over_Power.png-bb24ad001f49e41dd469d0881dd4b4e5.ctex"
+uid="uid://by21wh7qe6pk0"
+path="res://.godot/imported/scab_over_power.png-2dc41caefd22d8a7406517f145ba97a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SinewGod/images/powers/scab_over_Power.png"
-dest_files=["res://.godot/imported/scab_over_Power.png-bb24ad001f49e41dd469d0881dd4b4e5.ctex"]
+source_file="res://SinewGod/images/powers/big/scab_over_power.png"
+dest_files=["res://.godot/imported/scab_over_power.png-2dc41caefd22d8a7406517f145ba97a3.ctex"]
 
 [params]
 
